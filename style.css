@@ -118,6 +118,34 @@ html{
     margin-bottom: 14px;
 }
 
+.about-skills{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-skills div{
+    max-width: 50%; /*ajusta a largura máxima do elemento*/
+    padding-left: 30px;
+}
+
+.about-skills img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about-skills div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
 /*Projects*/
 
 .projects{
