@@ -16,22 +16,66 @@ body{
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-}
+    justify-content: flex-end; 
+}/*ajusta o tamanho e cor da classe nav, além de torna-la flex e por seu conteúdo no final*/
 
 .nav-list{
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 28px;
-}
+}/*Ajusta a lista dentro da nav para se comportar como linha e coloca seus itens no parte central da lista, além de tirar sua decoração e aplicar uma margem*/
 
 .nav-list a{
-    text-decoration: none;
+    text-decoration: none; /*tirar qualquer decorção da tag "a"*/
     color: #DDD;
     padding: 20px;
 }
 
 .nav-list a:hover{
-    color: white;
+    color: white; /*mudar a cor após o mouse passar por cima*/
 }
+
+/*Main*/
+
+.main{
+    width: 100%;
+    height: calc(100vh - 80px); /*tamanho inteiro da tela - o tamanho do header, para evitar scroll*/
+    background-color: antiquewhite;
+    background-image: url("assets/programador.png"); /*Torna o background igual de uma imagem com a url passada*/
+    display: flex;
+    align-items: center;
+    padding-left:10% ;
+}
+
+.main h1{
+   color: #FFFFFF;
+   font-size:54px ; 
+}
+
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1e96fc;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.call-to-action{
+    cursor: pointer;/*Faz o cursor do mouse mudar para mãozinha sempre que passar em cima do elemento indicado pelo seletor*/
+    background-color: #FFFFFF;
+    border: 0px;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+
+/*About*/
+
+
