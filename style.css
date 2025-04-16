@@ -69,6 +69,7 @@ body{
     border-radius: 4px;
     font-size: 18px;
     font-weight: bold;
+    transition: 0.9s; /*tempo que ele levara para fazer a transição se um elemento mudar de propriedades, nesse caso tamanho*/
 }
 
 .main a{
@@ -76,6 +77,37 @@ body{
     color: #181818;
 }
 
+.call-to-action:hover{
+    transform: scale(1.1); /*Altera o tamanho do elemento com base em uma escala passada */
+}
+
 /*About*/
+.about{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%; /*ajusta a largura máxima do elemento*/
+    padding-right: 40px;
+}
+
+.about img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
 
 
