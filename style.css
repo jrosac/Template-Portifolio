@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth; /*deixa a navegação de scroll via html mais suave*/
+}
+
 /*Header*/
 
 .nav{
