@@ -16,7 +16,7 @@ body{
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: sticky;
     top: 0px;
     z-index: 9;/*"Para uma caixa posicionada, a propriedade 'z-index' especifica o nível de empilhamento da caixa no contexto de empilhamento atual e se a caixa estabelece um contexto de empilhamento local."*/
@@ -54,11 +54,11 @@ body{
 
 .main h1{
    color: #FFFFFF;
-   font-size:54px ; 
+   font-size:75px ; 
 }
 
 .main p{
-    font-size: 24px;
+    font-size: 35px;
     font-style: italic;
     color: #1e96fc;
     margin-top: 15px;
@@ -71,7 +71,7 @@ body{
     border: 0px;
     padding: 14px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     transition: 0.9s; /*tempo que ele levara para fazer a transição se um elemento mudar de propriedades, nesse caso tamanho*/
 }
@@ -101,7 +101,7 @@ body{
 
 .about div{
     max-width: 50%; /*ajusta a largura máxima do elemento*/
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .about img{
@@ -112,6 +112,49 @@ body{
 .about div h2{
     font-size: 32px;
     margin-bottom: 14px;
+}
+
+/*Projects*/
+
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.projects h2{
+    font-size:32px ;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.projects p{
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.project-list{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-list img{
+    width:22% ;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
+.project-list img:hover{
+    opacity: 1;
 }
 
 
