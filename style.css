@@ -16,8 +16,12 @@ body{
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: flex-end; 
-}/*ajusta o tamanho e cor da classe nav, além de torna-la flex e por seu conteúdo no final*/
+    justify-content: flex-end;
+    position: sticky;
+    top: 0px;
+    z-index: 9;/*"Para uma caixa posicionada, a propriedade 'z-index' especifica o nível de empilhamento da caixa no contexto de empilhamento atual e se a caixa estabelece um contexto de empilhamento local."*/
+}
+/*ajusta o tamanho e cor da classe nav, além de torna-la flex e por seu conteúdo no final*/
 
 .nav-list{
     display: flex;
